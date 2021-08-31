@@ -1,1 +1,1 @@
-customTools = [ ".lift/markdown_tool.py" ]
+customTools = [ ".lift/markdown_tool.py", ".lift/this_tool_always_lies.sh" ]
