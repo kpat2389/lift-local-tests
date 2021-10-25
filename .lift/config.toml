@@ -1,1 +1,4 @@
-customTools = [ ".lift/markdown_tool.py" ]
+customTools = []
+ignoreFiles = """# Ignore Files
+subproject/Cargo.*
+"""
