@@ -5,3 +5,7 @@ Here is where I would add some documentation if this were a real project. Alas, 
 ## Documentation Subsection
 
 I :purple_heart: markdown
+
+``` bash
+markdown code snippet
+```
