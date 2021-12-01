@@ -1,1 +1,1 @@
-customTools = [ ".lift/markdown_tool.py" ]
+customTools = [ ".lift/markdown_tool.py", ".lift/tool_added_in_branch.py" ]
