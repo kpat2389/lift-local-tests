@@ -1,1 +1,3 @@
 customTools = [ ".lift/markdown_tool.py", ".lift/bom_tool.py" ]
+
+ossiUrl = "https://ossindex-stage.sonatype.org/"
