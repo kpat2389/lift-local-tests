@@ -1,0 +1,5 @@
+{
+    "boolean": true,
+    "color": "3409503",
+    "string": "HelloWorld"
+}

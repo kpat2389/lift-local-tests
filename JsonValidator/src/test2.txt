@@ -1,0 +1,13 @@
+{
+    "boolean": true,
+    "color": "3409503",
+    "null": null,
+    "number": 123,
+    dfljdk
+    "object": {
+        "a": "b",
+        "c": "d",
+        "e": "f"
+    },
+    "string": "HelloWorld"
+}

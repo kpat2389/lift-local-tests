@@ -1,0 +1,1 @@
+java -jar lift-local-tests.jar $3 $1
